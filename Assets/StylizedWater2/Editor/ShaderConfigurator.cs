@@ -403,7 +403,7 @@ namespace StylizedWater2
 			}
 			#endif
 			
-            if (compilerDataList[i].shaderKeywordSet.IsEnabled(keyword))
+            if (compilerDataList[i].shaderKeywordSet.IsEnabled(keyword) && i>0)
             {
                 compilerDataList.RemoveAt(i);
                 --i;

@@ -28,8 +28,8 @@ namespace CodeBase
 
         void Start()
         {
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
+            //Cursor.visible = false;
+            //Cursor.lockState = CursorLockMode.Locked;
             _camera = Camera.main;
         }
 

@@ -7,6 +7,8 @@ TagManager:
   - Hint
   - Fire
   - Water
+  - Missile
+  - FireSymbol
   layers:
   - Default
   - TransparentFX
@@ -20,9 +22,9 @@ TagManager:
   - Wall
   - Volume
   - TargetableNoCollision
-  - 
-  - 
-  - 
+  - Symbols
+  - NoTarget
+  - NoPostCamera
   - 
   - 
   - 
